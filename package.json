@@ -1,11 +1,11 @@
 {
-  "name": "test-cap",
+  "name": "test-cape",
   "description": "Clone this project to scaffold a new (npm/node) project.",
-  "homepage": "https://github.com/michieljoris/test-cap",
+  "homepage": "https://github.com/michieljoris/test-cape",
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/michieljoris/test-cap.git"
+    "url": "https://github.com/michieljoris/test-cape.git"
   },
   "author": {
     "name": "Michiel van Oosten",
@@ -15,25 +15,26 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/michieljoris/test-cap/blob/master/LICENSE.txt"
+      "url": "http://github.com/michieljoris/test-cape/blob/master/LICENSE.txt"
     }
   ],
-  "main": "src/test-cap.js",
+  "main": "src/test-cape.js",
   "bin": {},
   "engines": {
     "node": ">= 0.6.x"
   },
   "dependencies": {
+    "fs-extra": "0.8.x",
     "bb-server": "git://github.com/michieljoris/bb-server.git",
     "html-builder": "git://github.com/michieljoris/html-builder.git",
-    "fs-extra": "0.8.x"
+    "cape": "git://github.com/michieljoris/cape.git"
   },
   "devDependencies": {
     "docco": "*"
   },
   "private": false,
   "scripts": {
-    "docs": "node node_modules/.bin/docco src/test-cap.js"
+    "docs": "node node_modules/.bin/docco src/test-cape.js"
   },
-  "version": "0.1.1"
+  "version": "0.1.5"
 }
